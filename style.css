@@ -31,13 +31,13 @@ a:hover {
 }
 
 .card {
-  border: dashed .2em;
+  border: dashed .05em;
   border-color: black;
   margin: 2em;
   padding: 2em;
   }
 
-img {
+.image.round {
   width: 30%;
   border-radius: 50%;
   padding: 2em;
@@ -50,12 +50,17 @@ img {
 
 .list-inline li {
   display: inline;
+  font-size: 2em;
   padding: .5em;
 }
 
-.list-inline a {
-  font-size: 2em;
+img.logo.small {
+  display: inline;
+  width: 18%;
 }
+
+
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
