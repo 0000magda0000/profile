@@ -9,6 +9,7 @@ body {
 .container {
   width: 80em;
   margin: 0 auto;
+  display: grid;
 }
 
 h1 {
@@ -35,6 +36,8 @@ p {
 .card {
   margin: 2em;
   padding: 2em;
+  display: grid;
+  grid-auto-rows: min-content;
   }
 
 .image.round {
@@ -72,7 +75,6 @@ img.logo.small {
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-  width: 30em;
 }
   li {
   list-style: none;
