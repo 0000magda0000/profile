@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
 body {
-  font-family: helvetica, sans-serif;
+  font-family: "Roboto", helvetica, sans-serif;
   font-size: 1em;
   line-height: 1em;
   margin: 0;
@@ -26,7 +26,6 @@ a {
 
 a:hover {
 }
-
 
 p {
   font-size: 1.3em;
@@ -58,7 +57,7 @@ li {
 
 img.logo.small {
   display: inline;
-  width: 18%;
+  width: 10%;
 }
 
 .programming {
