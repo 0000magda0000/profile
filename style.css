@@ -69,8 +69,18 @@ img.logo.small {
   font-weight: 100;
 }
 
+.job {
+  font-size: 2em;
+  font-weight: 100;
+}
 
+.job li {
+  display: block
+}
 
+.job a {
+  text-decoration: underline;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
