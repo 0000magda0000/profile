@@ -72,10 +72,8 @@ img.logo.small {
 .job {
   font-size: 2em;
   font-weight: 100;
-}
+  display: block !important;
 
-.job li {
-  display: block
 }
 
 .job a {
